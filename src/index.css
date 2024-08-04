@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.scrollbar-hide {
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; 
+}
+
+/* CSS global atau styling di komponen */
+.slider-container .slick-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.slick-slide img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.swiper .res-slide {
+  min-width: 180px;
+  max-width: 200px;
+  min-height: 100px;
+}
+
+.res-slide:nth-child(1) {
+  background: center / cover no-repeat;
+}
+
+.res-slide:nth-child(2) {
+  background: center / cover no-repeat ;
+}
+
+.res-slide:nth-child(3) {
+  background: center / cover no-repeat ;
+}
+
+.res-slide:nth-child(4) {
+  background: center / cover no-repeat ;
+}
+
+.res-slide:nth-child(5) {
+  background: center / cover no-repeat ;
+}
+
+.res-slide:nth-child(6) {
+  background: center / cover no-repeat ;
+}
+
+.res-slide:nth-child(7) {
+  background: center / cover no-repeat ;
+}
+
+.res-slide:nth-child(8) {
+  background: center / cover no-repeat;
+}
+
+.video-container {
+  height: 60.00vh;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffffff;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 40px;
+}
+
+
+.swiper-pagination-bullet {
+  background-color: transparent;
+  border: 2px solid #000000; 
+  opacity: 1; 
+  transition: background-color 0.3s, border 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ffffff;
+  border: 2px solid #ffffff; 
+}
+
+.product-image-container:hover .main-image {
+  opacity: 0;
+}
+
+.product-image-container:hover .hover-image {
+  opacity: 1;
+}
+
