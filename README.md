@@ -1,4 +1,4 @@
-# Project Name
+# Exa Comp
 
 ## Project Specification
 

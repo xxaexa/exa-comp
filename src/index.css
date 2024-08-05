@@ -2,16 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 .scrollbar-hide {
   overflow: -moz-scrollbars-none;
-  -ms-overflow-style: none; 
-  scrollbar-width: none; 
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .scrollbar-hide::-webkit-scrollbar {
-  display: none; 
+  display: none;
 }
 
 /* CSS global atau styling di komponen */
@@ -37,27 +35,27 @@
 }
 
 .res-slide:nth-child(2) {
-  background: center / cover no-repeat ;
+  background: center / cover no-repeat;
 }
 
 .res-slide:nth-child(3) {
-  background: center / cover no-repeat ;
+  background: center / cover no-repeat;
 }
 
 .res-slide:nth-child(4) {
-  background: center / cover no-repeat ;
+  background: center / cover no-repeat;
 }
 
 .res-slide:nth-child(5) {
-  background: center / cover no-repeat ;
+  background: center / cover no-repeat;
 }
 
 .res-slide:nth-child(6) {
-  background: center / cover no-repeat ;
+  background: center / cover no-repeat;
 }
 
 .res-slide:nth-child(7) {
-  background: center / cover no-repeat ;
+  background: center / cover no-repeat;
 }
 
 .res-slide:nth-child(8) {
@@ -65,9 +63,8 @@
 }
 
 .video-container {
-  height: 60.00vh;
+  height: 60vh;
 }
-
 
 .swiper-button-next,
 .swiper-button-prev {
@@ -79,17 +76,16 @@
   font-size: 40px;
 }
 
-
 .swiper-pagination-bullet {
   background-color: transparent;
-  border: 2px solid #000000; 
-  opacity: 1; 
+  border: 2px solid #000000;
+  opacity: 1;
   transition: background-color 0.3s, border 0.3s;
 }
 
 .swiper-pagination-bullet-active {
   background-color: #ffffff;
-  border: 2px solid #ffffff; 
+  border: 2px solid #ffffff;
 }
 
 .product-image-container:hover .main-image {
@@ -99,4 +95,3 @@
 .product-image-container:hover .hover-image {
   opacity: 1;
 }
-
